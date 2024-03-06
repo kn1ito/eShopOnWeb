@@ -19,5 +19,5 @@ jobs:
           subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
           resourceGroupName: ${{ secrets.AZURE_RG }}
           template: infra/main2.bicep
-          parameters: storagePrefix=knito
+          parameters: storageName=knito
           failOnStdErr: false
